@@ -420,7 +420,7 @@
         }, 
         {
          "firstgid":2696,
-         "source":"src\/Clockify.tsx"
+         "source":"src\/tilesets\/Clockify.tmx"
         }],
  "tilewidth":32,
  "type":"map",
