@@ -420,14 +420,6 @@
         }, 
         {
          "firstgid":2688,
-         "source":"clockify.tsx"
-        }, 
-        {
-         "firstgid":2688,
-         "source":"Clockify.tsx"
-        }, 
-        {
-         "firstgid":2688,
          "source":"src\/assets\/ClockifyBild.tsx"
         }],
  "tilewidth":32,
