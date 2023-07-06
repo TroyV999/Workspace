@@ -136,9 +136,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openWebsite",
+                 "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/app.clockify.me\/tracker"
+                 "value":"https:\/\/geprog.mocoapp.com\/activities"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
@@ -148,7 +148,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Press SPACE to open Clockify"
+                 "value":"Press SPACE to open MOCO"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -213,14 +213,19 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"jitsiRoom",
+                 "name":"openTab",
                  "type":"string",
-                 "value":"meeting1"
+                 "value":"https:\/\/meet.jit.si\/"
                 }, 
                 {
-                 "name":"jitsiTrigger",
+                 "name":"openWebsiteTrigger",
                  "type":"string",
                  "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Press SPACE to open Jitsi. If you don't know the meeting code, ask someone ;)"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1145,7 +1150,7 @@
          "value":"script.js"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.8.4",
+ "tiledversion":"1.10.1",
  "tileheight":32,
  "tilesets":[
         {
@@ -1303,6 +1308,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.8",
+ "version":"1.10",
  "width":60
 }
